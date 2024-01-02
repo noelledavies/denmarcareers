@@ -1,0 +1,136 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.header {
+    height: 12vh;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.left {
+    height: 12vh;
+    width: 50vw;
+    display: flex;
+    justify-content: start;
+}
+.left img {
+    height: 10vh;
+    width: 20vw;
+    display: flex;
+    justify-content: start;
+    margin: 1vh;
+}
+
+.right {
+    height: 12vh;
+    width: 50vw;
+    display: flex;
+    justify-content: end;
+    font-size: 2vh;
+}
+
+.right a {
+    display: flex;
+    align-items: center;
+    padding: 2vh;
+    text-decoration: none;
+    color: #43494e;
+}
+
+.right a:hover {
+    color: #e71939;
+    
+}
+.right a:visited {
+    color: #43494e;
+}
+
+.bodyimg {
+    height: 76vh;
+    width: 100vw;
+}
+
+.bodyimg #yellow {
+    height: 16vh;
+    width: 100vw;
+}
+
+.bodyimg #yellow img {
+    height: 12vh;
+    width: 100vw;
+}
+
+.bodyimg #board {
+    height: 60vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bodyimg #board img {
+    height: 60vh;
+    width: 100vw;
+    position: absolute;
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.4;
+}
+.bodyimg #board .photocontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bodyimg #board #link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 12vh;
+    height: 6vh;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    font-size: 1.5vh;
+    text-decoration: none;
+    color: #43494e;
+    border: solid white;
+    border-radius: 5px;
+}
+.bodyimg #board #link:hover {
+    color: #e71939;
+    background-color: #43494e;
+    border: solid #43494e;
+}
+.bodyimg #board #link:visited {
+    color: #43494e;
+}
+.bodyimg #board .photocontent h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80vh;
+    height: 6vh;
+    z-index: 1;
+    font-size: 3.5vh;
+    color: black;
+}
+
+.socials {
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.socials img {
+    height: 4vh;
+    padding: 1vh;
+    align-items: center;
+}
